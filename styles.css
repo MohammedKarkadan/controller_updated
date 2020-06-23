@@ -1,0 +1,41 @@
+body {
+    background-color: #a6dcef;
+}
+button {
+    height:40px;
+    width:120px;
+    position: absolute;
+    font-weight: 900;
+}
+button:hover {
+    background-color: springgreen;
+}
+#Stop {
+    background-color: orangered;
+    left: 700px;
+    top: 420px;
+}
+#Stop:hover {
+    background-color: red;
+}
+.control {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 620px ;
+}
+.forward {
+    left: 700px;
+    top: 340px;
+}
+.backward {
+    left: 700px;
+    top: 500px;
+}
+.left {
+    top:420px;
+    left: 510px;
+}
+.right {
+    top: 420px;
+    left: 890px;
+}
